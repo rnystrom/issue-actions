@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc --noEmit && jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^1.1.0",
+    "@types/jest": "^24.9.1",
+    "@types/js-yaml": "^3.12.1",
+    "@types/nock": "^11.1.0",
+    "@types/node": "^12.12.29",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jes": "^0.6.1",
+    "jest": "^24.9.0",
+    "js-yaml": "^3.13.1",
+    "nock": "^11.3.4",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.8.3"
+  },
+  "name": "project-actions",
+  "description": "This repository contains two example GitHub Actions and associated workflows. The code is written in TypeScript and the tests are written using Jest.",
+  "version": "1.0.0",
+  "main": "jest.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnystrom/project-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rnystrom/project-actions/issues"
+  },
+  "homepage": "https://github.com/rnystrom/project-actions#readme"
+}

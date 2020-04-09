@@ -1,0 +1,6 @@
+name: "sync-child-issues"
+description: "Syncs child issues with their parent"
+author: "rnystrom"
+runs:
+  using: "node12"
+  main: "./sync-child-issues.js"
