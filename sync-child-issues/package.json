@@ -7,7 +7,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^1.1.0",
     "@types/jest": "^24.9.1",
     "@types/js-yaml": "^3.12.1",
